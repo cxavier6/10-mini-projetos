@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    font-weight: 100;
+    background-color: rgb(7, 3, 3);
+    color: #EDEDED;
+}
+
+.greek {
+    display: flex;
+    width: 100vw;
+    justify-content: flex-start;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #EDEDED;
+}
+
+.container {
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    padding: 15px;
+    font-weight: 400;
+    color: #EEEEEE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inicial {
+    width: 100vw;
+    height: 50vw;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+
+}
+
+#texto {
+    display: flex;
+    justify-content: center;
+    color: #EDEDED;
+    padding-top: 10vh;
+    font-size: 50px;
+}

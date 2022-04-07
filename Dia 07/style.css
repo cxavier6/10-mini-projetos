@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+}
+
+header .logo {
+    position: relative;
+    font-size: 2em;
+    color: #007A33;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+header .menu a {
+    justify-content: space-around;
+    width: 40%;
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+
+}
+
+.menu a:hover {
+    cursor: pointer;
+    color: #000000;
+    text-decoration:overline;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #000000;
+    overflow: hidden;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 470px;
+    height: 100%;
+    background: #007A33;
+    transform-origin: top;
+    transform: skewX(25deg);
+    z-index: 1;
+}
+
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+.banner .textbox {
+    position: relative;
+    max-width: 600px;
+    padding-left: 100px;
+    z-index: 2;
+}
+
+.banner .textbox h2 {
+    color: #FFFFFF;
+    font-size: 3em;
+}
+
+.banner .textbox p {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    margin: 5px 0 25px;
+}
+
+.banner .textbox a {
+    position: relative;
+    display: inline-block;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px #007A33;
+}
+
+.banner .imgbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 30%;
+    z-index: 2;
+}
+
+.banner .imgbox img {
+    position: absolute;
+    bottom: 0;
+    height: 85%;
+    z-index: 1000;
+}
+
+.sci {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    letter-spacing: 100px;
+    padding-left: 100px;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.sci li a img {
+    transform: scale(0.5);
+    filter: invert(1);
+}

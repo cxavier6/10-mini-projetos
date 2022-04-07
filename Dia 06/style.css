@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(0deg, #726f6f 0%, #2c2b2b 100%);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 100vh;
+}
+
+.texto h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 80vh;
+    width: 60%;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.card{
+	width: 200px;
+	height: 200px;
+	position: relative;
+    overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px #171717;
+}
+

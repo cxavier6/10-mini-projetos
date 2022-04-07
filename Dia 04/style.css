@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+h1:hover {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+}
+
+.imagem {
+    height: 200px;
+}
+    
+
+.imagem, .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.imagem {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1573767291321-c0af2eaf5266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=836&q=80);
+    background-size: cover;
+}
+
+.imagem, .texto {
+    color: white;
+    text-align: center;
+}
+
+.imagem .p {
+    font-weight: 400;
+}
+
+.formulario {
+    margin: 0;
+    background: linear-gradient(90deg, #06052f, #a00c9f);
+}
+
+.formulario .texto {
+    color: white;
+    text-align: center;
+}
+
+.formulario, .texto p {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.formulario form {
+    width: 320px;
+}
+
+.input {
+    color: white;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid darkgrey;
+    padding: 0.5em;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    background: #a00c9f;
+    color: white;
+    font-weight: 600;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #401594;
+}
+
+@media (min-width: 800px) {
+    .pagina {
+        flex-direction: row;
+        height: 100vh; 
+    }
+
+    .imagem, .formulario {
+        display: flex;
+        width: 50%;
+        height:auto;
+        margin: 0;
+    }
+}
+
