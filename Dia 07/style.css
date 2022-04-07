@@ -156,3 +156,33 @@ header .menu a {
     transform: scale(0.5);
     filter: invert(1);
 }
+
+#container-historia {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    background: linear-gradient(90deg, #007A33 50%, #171717 100%);
+    color: #FFFFFF;
+}
+
+.historia h2 {
+    font-size: 2.2em;
+    padding: 20px;
+}
+
+.historia p {
+    margin: 10px;
+    width: 50vw;
+    padding: 10px;
+}
+
+.tdgarden img {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 350px;
+    border-radius: 7px;
+    margin: 40px 0 10px 40px;
+    box-shadow: 0 10px 20px #171717;
+}
