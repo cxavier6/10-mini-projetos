@@ -13,5 +13,4 @@ com a listagem de cada projeto abaixo:
 - Dia 06: Utilização do Flexbox.
 - Dia -: Finalização do módulo de Flexbox da Alura.
 - Dia 07: Landing Page do Boston Celtics, utilizando vídeo no background e z-index.
-- Dia 08: Adiciona a parte História na Landing Page do Boston Celtics.
-- Dia 09: Landing Page com modelo ficticio de um Porsche R18.
+
