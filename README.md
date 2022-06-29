@@ -1,6 +1,6 @@
 # 10 Mini Projetos
 
-Complemento do Desafio de 30 dias de código, os projetos desenvolvidos com HTML, CSS e Javascript. Serão 30 projetos diferentes armazenados neste repositório, 
+Complemento do Desafio de 30 dias de código, os projetos desenvolvidos com HTML, CSS, Javascript e jQuery. Serão 30 projetos diferentes armazenados neste repositório, 
 com a listagem de cada projeto abaixo:
 
 <strong>Lista dos projetos</strong>
